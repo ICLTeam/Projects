@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a9f9de7-9c7b-4017-959c-c4a2db2decf5">
+  <producedTypes>
+    <objectType typeId="b91468af-6c09-436e-ac90-a80b43dbbbd6" valueTypeId="6688919c-759b-447a-af7f-7dd2497d0cd2"/>
+    <refType typeId="00c9eff9-fd1e-4cfa-b397-1f2d0ef7aa6b" valueTypeId="64f4047a-0436-4924-99ae-15e744811afe">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="dc44c35d-d9a8-4058-aa76-968cea448145" valueTypeId="991eb8ee-69ff-4438-9c83-d565252d0892"/>
+    <listType typeId="4c3e97da-78a4-40b1-b189-22d4e723a845" valueTypeId="43e340d3-93b0-4b35-8576-0581855f5080"/>
+    <managerType typeId="0fa0e0aa-4d2f-45b0-a3f9-fa0025d0f462" valueTypeId="b5ddbfb3-87bd-4389-8aec-67b79d24ea1d"/>
+  </producedTypes>
+  <name>ВалютыКонфигуратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты конфигуратор</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВалютыКонфигуратор.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВалютыКонфигуратор.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1b69e17b-581d-4e66-ab19-39a3effce2d8">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="837fc0ee-1157-42ba-82e7-912b9814a876">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

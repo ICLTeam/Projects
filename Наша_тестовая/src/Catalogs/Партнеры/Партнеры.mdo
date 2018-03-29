@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02998360-0615-4dff-b10b-e0d37e1b2ef3">
+  <producedTypes>
+    <objectType typeId="02569580-a2ec-4ec4-a632-bc0e62c3e118" valueTypeId="c75f60f2-02a4-4824-98f6-c064da67ec8f"/>
+    <refType typeId="c790e805-ae6f-4adc-a1b5-7365e65e7f7c" valueTypeId="734dc626-576d-464a-af1c-ccba5976032a">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="68cb3bb0-7bdd-42b9-a33b-7e8b1058b348" valueTypeId="2934405c-29c5-4f80-8072-da00a3e8b88a"/>
+    <listType typeId="51bf8092-6e6d-45c5-9a83-e5a7ddc7e553" valueTypeId="0bdac8e3-4b5f-4a14-a40b-9de472fa9c90"/>
+    <managerType typeId="d8c798c3-64aa-47b8-a44c-24bc540b8b22" valueTypeId="1dec3186-37ba-4c03-bbb0-45c69be543b2"/>
+  </producedTypes>
+  <name>Партнеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партнеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Партнеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Партнеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9b44be30-bc45-4a41-bf31-9dc3ea7ecad3">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>
