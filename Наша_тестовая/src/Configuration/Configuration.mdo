@@ -35,4 +35,5 @@
   <catalogs>Catalog.ВалютыКонфигуратор</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Корзины</catalogs>
 </mdclass:Configuration>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93bed70c-9153-4a7e-82de-77022691dbec">
+  <producedTypes>
+    <objectType typeId="4f94b6ae-f9db-4773-8df8-9b6dc006a029" valueTypeId="b8fe66c9-96d6-4dc9-b8a1-1dc2897bbaa4"/>
+    <refType typeId="8b4f42e3-d13b-41fe-b3f3-f2d45741d83b" valueTypeId="bcfffaf4-387b-4e9d-a8f5-b9bd2302487e">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="e2f23219-3ff4-4441-a6a9-a27aee6aabcf" valueTypeId="1fc00cb0-8b71-4b98-ac2c-a2da42a6ffa9"/>
+    <listType typeId="2304c203-564e-4e58-83a5-5c096dd5b073" valueTypeId="caed8b87-799a-4a38-bffa-e6e63b6632d0"/>
+    <managerType typeId="e12a67b5-c0eb-4b8b-8e52-df13439dfb2b" valueTypeId="bb05349e-eb33-47ee-8b0a-e20df5523ead"/>
+  </producedTypes>
+  <name>Корзины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корзины</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Корзины.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Корзины.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7ff76522-37e7-4c76-9158-f3473ca1af33">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВалютыКонфигуратор</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>
