@@ -63,4 +63,18 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="964c4e17-0648-43e6-baa0-60e5ff2ee8aa">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
 </mdclass:Document>
