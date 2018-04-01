@@ -77,4 +77,18 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="9d845722-66e1-4c35-997f-03b2f95ca113">
+    <name>Порадок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порадок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
 </mdclass:Document>
