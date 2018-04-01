@@ -36,5 +36,7 @@
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Корзины</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.ПоступлениеТоваровУслуг</documents>
 </mdclass:Configuration>
